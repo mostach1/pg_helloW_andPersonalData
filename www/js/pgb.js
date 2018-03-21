@@ -20,3 +20,12 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+
+	info =  'Hello, I am:' + '\n' +
+			'Monika Stach' + '\n';
+
+	navigator.notification.alert(info);
+	
+}
